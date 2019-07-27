@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #5c6263;
+}
+
+.addSize {
+    min-height: 50px;
+    /*background-color: aqua;*/
+    margin: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    color: #60b171;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*structure of template*/
+
+
+/*Структура сайтаоснова основ!!!!*/
+
+.content {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.row_centered {
+    justify-content: center !important;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.col_2 {
+    flex-basis: 470px;
+}
+
+.col_4 {
+    flex-basis: 230px;
+}
+
+.col_5 {
+    flex-basis: 1000px;
+}
+
+.col_1_5 {
+    flex-basis: 185px;
+}
+
+.col_2_5 {
+    flex-basis: 385px;
+}
+
+.col_3_5 {
+    flex-basis: 585px;
+}
+
+.block {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: bisque;
+}
+
+.verticalCenter {
+    align-items: center;
+}
+
+.intro_text {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.intro_text span {
+    color: #00a75e;
+}
+
+.intro_contact {
+    color: #99abc3;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.topPadding {
+    padding: 50px;
+}
+
+footer {
+    background-color: #2a526a;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.rightTextAlign {
+    text-align: right !important;
+}
+
+.leftTextAlign {
+    text-align: left !important;
+}
+
+.rightContentAlign {
+    align-items: flex-end !important;
+}
+
+.leftContentAlign {
+    align-items: flex-start !important;
+}
+
+.benefitsHeader {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.benefitsBlok {
+    border-radius: 50px;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.block1 {
+    background-color: #00a75e;
+}
+
+.block2 {
+    background-color: #00acb4;
+}
+
+.block3 {
+    background-color: #1784a2;
+}
+
+.block4 {
+    background-color: #2a526a;
+}
+
+.justifyBlocks {
+    align-items: stretch !important;
+}
+
+.benefitsBlok ul {
+    padding-left: 20px;
+}
+
+.benefitsBlok li {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.serviseBlock {
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.streightRow {
+    flex-wrap: nowrap;
+}
+
+.serviseBlock ul {
+    padding-left: 20px;
+    max-width: 170px;
+}
+
+.serviseBlock li {
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 0px;
+}
+
+.AboutCompanyTxt {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contactText {
+    height: 50px;
+}
+
+.contactElements {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contactMessage {
+    height: 150px;
+    padding-top: 20px;
+}
+
+.capchaText {
+    width: 50%;
+    height: 50px;
+}
+
+.contactButton {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #1784a2;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+/*---------mobile---------------*/
+
+@media (max-width: 1000px) {
+    .streightRow {
+        flex-wrap: wrap;
+    }
+    .benefitsBlok {
+        flex-basis: 300px;
+        min-height: 350px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .serviseBlock {
+        flex-basis: 97%;
+    }
+}
+
+@media (max-width: 600px) {
+    .col {
+        max-width: 300px;
+        flex-basis: 300px;
+    }
+    .contactButton {
+        width: 100px;
+    }
+}
