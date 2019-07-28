@@ -58,7 +58,7 @@ h2 {
 .iconRow {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content: flex-start;
     align-items: center;
     align-content: flex-start;
@@ -293,9 +293,16 @@ footer p {
     margin: 10px;
 }
 
-.services {
+.services h2 {
     font-size: 100px;
     margin-top: 100px;
+}
+
+.services p {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 .menu {
@@ -311,6 +318,10 @@ footer p {
     margin-left: 20px;
     margin-right: 20px;
     color: #5c6263;
+}
+
+.cta_img {
+    margin: 5px;
 }
 
 
@@ -329,6 +340,12 @@ footer p {
     .serviseBlock {
         flex-basis: 97%;
     }
+    .row {
+        justify-content: center;
+    }
+    .serviseBlock .row {
+        justify-content: flex-start;
+    }
 }
 
 .imgCheck {
@@ -343,14 +360,11 @@ footer p {
     .contactButton {
         width: 100px;
     }
-    .services {
+    .services h2 {
         font-size: 60px;
         margin-top: 50px;
     }
     .topPadding {
         padding: 10px;
-    }
-    .row {
-        justify-content: center;
     }
 }
