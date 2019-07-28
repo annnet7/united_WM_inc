@@ -324,6 +324,16 @@ footer p {
     margin: 5px;
 }
 
+.back_to_top {
+    position: fixed;
+    z-index: 99;
+    right: 10px;
+    bottom: 10px;
+    background-image: url(../img/back_to_top.png);
+    width: 41px;
+    height: 56px
+}
+
 
 /*---------mobile---------------*/
 
